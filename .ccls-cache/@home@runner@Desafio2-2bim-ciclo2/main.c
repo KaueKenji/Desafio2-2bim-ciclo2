@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+//structs
 typedef struct produtos {
 
   char jogo[50];
