@@ -78,7 +78,7 @@ void Listar(FILE *file, game *c){
     while ( fread(c, sizeof(*c), 1, file) != 0) {
     
        if(*c->jogo != 0){
-      printf("\n ____________________________ ");
+      printf("\n ________________if____________ ");
       printf("\n| %d° \n| Jogo: %s\n| Produtora: %s\n| Preço: %.2f \n|Quantidade: %d", i+1,c->jogo, c->prod, c->preco, c->qtd);
        printf("\n|____________________________|");
 
@@ -495,7 +495,6 @@ int main() // principais do main  
       break;
     }
     
-   
       // fim switch
     }
   } while (escolhaMenu != 10);
